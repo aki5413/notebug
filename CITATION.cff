@@ -3,7 +3,10 @@ message: "If you use NoteBug in teaching or research, please cite it as below."
 title: "NoteBug: a PyCharm-style breakpoint debugger for teaching Python in Google Colab and Jupyter"
 type: software
 authors:
-  - alias: aki5413
+  - given-names: Akihiko
+    family-names: Yamada
+    affiliation: Seoul National University
+    orcid: "https://orcid.org/0000-0003-4904-7072"
 version: 0.5.0
 date-released: 2026-10-11
 license: MIT
