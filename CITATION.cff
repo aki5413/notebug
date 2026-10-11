@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use NoteBug in teaching or research, please cite it as below."
+title: "NoteBug: a PyCharm-style breakpoint debugger for teaching Python in Google Colab and Jupyter"
+type: software
+authors:
+  - alias: aki5413
+version: 0.5.0
+date-released: 2026-10-11
+license: MIT
+repository-code: "https://github.com/aki5413/notebug"
+keywords:
+  - debugger
+  - programming education
+  - Google Colab
+  - Jupyter
+  - Python

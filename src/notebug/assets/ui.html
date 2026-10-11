@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=M+PLUS+Rounded+1c:wght@500;800&display=swap">
+<div class="bc" id="bc-__SID__" tabindex="0">
+  <div class="bc-top">
+    <div class="bc-brand">🐞 NoteBug<small>v__VER__</small></div>
+    <div class="bc-lane"><div class="bc-pet"><span class="bc-hop"><span class="bc-pet-e">🐈</span></span><div class="bc-bubble"></div></div></div>
+    <div class="bc-opts">
+      <button class="bc-ib bc-trophy">🏆 <span>0</span></button>
+      <button class="bc-ib bc-powerb" aria-pressed="false">⚡</button>
+      <button class="bc-ib bc-soundb" aria-pressed="false">🔈</button>
+      <button class="bc-ib bc-setb" aria-expanded="false" aria-haspopup="true">⚙</button>
+    </div>
+    <div class="bc-set" role="dialog">
+      <label data-t="theme"></label><select class="bc-themesel"><option value="night"></option><option value="light"></option><option value="darcula"></option><option value="contrast"></option></select>
+      <label data-t="fontSize"></label><div class="bc-fsz"><button class="bc-ib bc-fsm" aria-label="smaller">A−</button><output class="bc-fsv">13px</output><button class="bc-ib bc-fsp" aria-label="larger">A+</button></div>
+      <label data-t="langLabel"></label><select class="bc-langsel"><option value="ko">한국어</option><option value="ja">日本語</option><option value="en">English</option></select>
+      <label data-t="pet"></label><select class="bc-petsel"><option>🐈</option><option>🐕</option><option>🦔</option><option>🐧</option><option>🐢</option><option>🦖</option></select>
+    </div>
+  </div>
+  <div class="bc-bar">
+    <button class="bc-btn bc-run" data-a="run">▶ <span class="bc-l" data-t="run"></span> <kbd>F9</kbd></button>
+    <span class="bc-sep"></span>
+    <button class="bc-btn" data-a="over">↷ <span class="bc-l" data-t="over"></span></button>
+    <button class="bc-btn" data-a="into">↘ <span class="bc-l" data-t="into"></span></button>
+    <button class="bc-btn" data-a="out">↗ <span class="bc-l" data-t="out"></span></button>
+    <span class="bc-sep"></span>
+    <button class="bc-btn" data-a="back">⏪ <span class="bc-l" data-t="back"></span></button>
+    <button class="bc-btn" data-a="restart">⟲ <span class="bc-l" data-t="restart"></span></button>
+    <input class="bc-tl" type="range" min="0" max="0" value="0" aria-label="timeline">
+    <span class="bc-status"></span>
+  </div>
+  <div class="bc-main">
+    <div class="bc-codewrap"><div class="bc-code"></div><canvas class="bc-fx"></canvas><div class="bc-combo"></div><div class="bc-banner"></div></div>
+    <div class="bc-side">
+      <div class="bc-pan bc-stackp"><h4><span data-t="stack"></span></h4><div class="bc-scroll bc-stack"></div></div>
+      <div class="bc-pan bc-varsp"><h4><span data-t="vars"></span><span class="bc-frname"></span></h4><div class="bc-scroll bc-vars"></div></div>
+    </div>
+  </div>
+  <div class="bc-bottom">
+    <div class="bc-pan bc-outp"><h4><span data-t="output"></span></h4><div class="bc-scroll"><pre class="bc-out"></pre></div></div>
+    <div class="bc-pan bc-conp"><h4><span data-t="console"></span><span class="bc-conwhere"></span></h4><div class="bc-scroll bc-logwrap"><div class="bc-log"></div></div>
+      <div class="bc-inrow"><b class="bc-prompt">&gt;&gt;&gt;</b><textarea class="bc-in" rows="1" spellcheck="false" autocomplete="off" autocapitalize="off"></textarea><button class="bc-btn bc-go">▶ <span data-t="conRun"></span></button></div></div>
+  </div>
+  <div class="bc-toasts"></div>
+  <div class="bc-lightbox" title="close"><img alt="figure"></div>
+</div>

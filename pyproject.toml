@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notebug"
+version = "0.5.0"
+description = "PyCharm-style breakpoint debugger for teaching Python in Google Colab / Jupyter"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "aki5413" }]
+requires-python = ">=3.9"
+dependencies = []            # IPython is already present in Colab / Jupyter
+keywords = ["debugger", "education", "colab", "jupyter", "breakpoint", "teaching"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Framework :: Jupyter",
+  "Intended Audience :: Education",
+  "Topic :: Education",
+  "Topic :: Software Development :: Debuggers",
+  "Natural Language :: Korean",
+  "Natural Language :: Japanese",
+  "Natural Language :: English",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "ipython", "numpy", "pandas", "matplotlib"]
+
+[project.urls]
+Homepage = "https://github.com/aki5413/notebug"
+Issues = "https://github.com/aki5413/notebug/issues"
+Changelog = "https://github.com/aki5413/notebug/blob/main/CHANGELOG.md"
+
+[project.scripts]
+notebug = "notebug.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+notebug = ["assets/*"]
